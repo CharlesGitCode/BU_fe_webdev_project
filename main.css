@@ -25,18 +25,15 @@ nav ul {
     padding: 0;
 }
 
-img {
-    max-width: 10;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
+
+
 
     .logo{
- max-width: 40;
-  height: auto;
-    }
+ width: 200px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
 
 
 /****************
@@ -53,7 +50,7 @@ h1{
 MEDIA QUERIES
 ****************/
 
-@media (min-width: 800px){
+@media screen (min-width: 800px){
     .container{
         width: 33%;
         float: left;
@@ -63,10 +60,11 @@ MEDIA QUERIES
         float: left;
     }
     
-    .logo{
- max-width: 40;
+   .logo{
+ max-width: 40px;
   height: auto;
     }
+    
     #gallery{
          width: 33%;
         float: left; 
