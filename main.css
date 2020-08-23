@@ -2,7 +2,6 @@
 GENERAL
 ****************/
 
-
 nav li {
     display: inline-block;
         padding: 20px 10px;
@@ -71,6 +70,21 @@ nav ul {
   width:  500px;
   height:500px;
 }
+
+.input-group {
+    display: inline-block;
+    padding: 20px 20px
+}
+
+.confirmation{
+   border-style:solid;
+ border-color:crimson;
+}
+
+.welcome{
+    padding:  20px 10px 40px 10px;
+}
+
 /****************
 COLORS
 ****************/
@@ -91,7 +105,7 @@ MEDIA QUERIES
         float: left;
     }
     h1{
-                width: 33%;
+        width: 33%;
         float: left;
     }
     
@@ -107,5 +121,8 @@ MEDIA QUERIES
         .footerr{
  text-align: center;
     }
-
+    .input-group {
+        width: 33%;
+        float: left;   
+    }
 }
